@@ -1,0 +1,403 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.bodystyle{
+    width: 90%;
+    margin: 0 auto;
+}
+.logos{
+    height: 30px;
+    margin: 0px;
+}
+.active{
+    font-weight: bolder !important;
+}
+.nav-link{
+    margin-left: 20px !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}
+.nav-link:hover{
+    font-weight: bold !important;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:blue !important;
+    border-radius: 20px !important;
+    transform: scale3d(1.2) !important;
+    transition: transform 2s !important; 
+   }
+.fa-facebook, .fa-twitter, .fa-instagram, .fa-youtube-play{
+    color: rgb(5, 8, 5) !important;
+   font-size: 26px !important;
+   margin-left: 10px !important;
+  
+}
+.fa-facebook{
+    padding-left: 40px !important;
+    margin-left: 50px !important;
+}
+.sr-only{
+    color: darkblue !important;
+}
+#navbarSupportedContent{
+    margin-left: 120px !important;
+}
+.d-block{
+    height: 450px !important;
+}
+.carousel-inner h2{
+    font-weight: bold !important;
+    font-size: 50px !important;
+    background-repeat: no-repeat;
+    width: 550px !important;
+    text-align: center !important;
+    margin-left: 160px !important;
+    color: rgb(21, 223, 213);
+    margin-bottom: 90px;
+    font-family: Brush Script Std !important;
+    
+}
+
+
+.carousel-inner p{
+    background-color: brown !important;
+    font-weight: bold !important;
+    font-size: 30px !important;
+    box-shadow: 2px 5px 6px greenyellow !important;
+    
+}
+.card{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px !important;
+    align-items: center !important;
+   
+}
+/*.card-img{
+    height: 200px !important;
+}*/
+.card-img-top{
+    margin-top: 10px !important;
+    margin-left: 20px !important;
+  
+    
+}
+.card-body{
+    text-align: center !important;
+
+}
+.main1card{
+    align-content: center;
+    
+  
+}
+.special{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 15px;
+    font-size: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.special:hover{
+    color: chocolate;
+    box-shadow: darkgreen;
+}
+
+.person_7{
+    border-radius: 110px;
+    width: 200px;
+    
+}
+.click{
+    text-align: center;
+    margin-top: 10px;
+}
+.person_3{
+    width: 170px;
+    border-radius: 130px;
+    margin-top: 20px;
+}
+.maincontainer{
+    height: 400px;
+    width: 98%;
+    background-image: url("moon.jpg");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+}
+.person_body{
+    color: white;
+    
+    align-content: center;
+    flex-direction: row;
+}
+.name{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.dropdown-item:hover{
+color: blueviolet !important;
+font-weight: bold !important;
+transform: scale(1.1) !important;
+}
+.graphic{
+    width: 120px;
+    height: 90px;
+    border-radius: 120px;
+}
+.allbum{
+    width: 1200px;
+    
+    margin: 30px auto 0;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+.allbum .card{
+    position: relative;
+    width: 300px;
+    height: 200px;
+   
+    margin: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 20px;
+   
+}
+
+.allbum .card .imgbox{
+    position: relative;
+    overflow: hidden;
+}
+.allbum .card .imgbox img{
+    max-width: 100%;
+    height: 200px;
+    transition: transform 2s;
+}
+.portrait{
+    max-width: 200px;
+}
+.allbum .card:hover .imgbox img{
+    transform: scale(1.2);
+}
+.card-img-top{
+    transition: transform 2s;
+    max-width: 100%;
+}
+.card:hover .card-img-top{
+    transform: scale(1.1) !important;
+}
+.allbum .card .detials{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    bottom: 10px;
+    right: 10px;
+    background: rgba(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+.allbum .card .detials .content h2{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #ff0;
+
+}
+
+.allbum .card .detials .content{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 15px;
+    color: sandybrown;
+}
+.allbum .card .detials .content p{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #ff0;
+}
+
+
+.card-img{
+    height: 60px !important;
+    width: 100px !important;
+}
+.Photography {
+    text-align: center;
+    margin-top: 20px;
+}
+.headings h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.headings h4:hover{
+    color: royalblue;
+    transform: scale(1.1);
+}
+.fo{
+    background-color: teal;
+}
+footer{
+    color: cornsilk !important;
+    background-color: darkslategrey !important;
+}
+.fa-address-book-o,.fa-envelope-o,.fa-mobile,.fa-whatsapp{
+    font-size: 20px !important;
+    margin: 10px !important;
+}
+.text-uppercase{
+    margin-top: 30px !important;
+    font-weight: bold !important;
+    
+}
+.foo{
+    font-weight: bold !important;
+}
+.carousel-item{
+    height: 500px !important;
+    max-width: 100% !important;
+}
+.row1{
+  margin-top: 20px;
+  background-color: lavenderblush;
+  box-shadow: 2px  3px 5px 6px  magenta;
+}
+.row1 img{
+    width: 280px;
+    margin: 10px;
+    box-shadow: 2px  3px 5px 6px  gainsboro;
+}
+.row1 img:hover{
+    transform: scale(1.1);
+    transition: transform 2s;
+}
+.gallery-heading{
+    text-align: center;
+    font-family: Brush Script Std;
+    margin-top: 13px;
+}
+.gallery-heading h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(32, 48, 25);
+}
+footer{
+    margin-bottom: 10px !important;
+    box-shadow: 4px 4px 4px 4px gray !important;
+}
+.cardp{
+    display: inline-block;
+}
+.cardp img{
+width: 600px;
+height: 500px;
+text-align: left;
+margin-top: 90px;
+margin-left: 5px;
+padding-right: 90px;
+
+}
+
+.cardp h1{
+    text-align: center;
+    margin-top: 90px;
+}
+.cardp p{
+    text-align: justify;
+    padding-right:90px ;
+}
+.cardp h5{
+    margin-top: 50px;
+    color: rebeccapurple;
+    font-weight: bold;
+}
+.progress{
+    margin-top: 10px !important;
+    margin-left: 60px !important;
+    border-radius: 5px !important;
+}
+.progress1{
+    margin-top: 120px;
+    padding-left: 60px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.skill h5{
+margin-left: 60px;
+margin-top: 30px;
+}
+.maincontainer{
+    margin-top: 20px;
+ 
+}
+.forms1{
+    
+    width:98%;
+    display: inline-block;
+   
+    margin-top: 60px;
+   background-color: cyan;
+   border-radius: 5px;
+}
+form{
+    margin: 10px;
+    font-weight: bold;
+}
+form h2{
+    text-align: center;
+    font-weight: bold;
+    font-family: fantasy;
+    padding: 20px;
+}
+.btn{
+    margin-left: 10px;
+}
+.form-check-input{
+    margin-left: 0px;
+}
+.form-check-label{
+    margin-left: 15px;
+}
+.form-row{
+    margin-top: 10px;
+}
+/*services card design*/
+.icons-maincard{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fa-camera,.fa-television,.fa-plane,.fa-bug,.fa-birthday-cake,.fa-dot-circle-o{
+    font-size: 50px !important;
+    margin-top: 10px;
+}
+.camera{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: royalblue;
+}
+.card11,.card12,.card13{
+   background-color: aquamarine;
+    width:250px;
+    height: 500px;
+    display: block;
+    justify-content: space-around;
+   margin-left: 60px;
+   margin-right: 60px;
+    text-align: center;
+    margin-top: 10px;
+}
+.price{
+    color: royalblue;
+    font-size: 20px;
+    font-weight: bold;
+}
